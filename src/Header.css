@@ -1,0 +1,64 @@
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .header-content {
+    display: flex;
+    
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap;
+  }
+  
+  .logo {
+    font-size: 24px;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input {
+    width: 800px;
+    margin-right: 10px;
+    padding: 8px;
+    border: none;
+  }
+  
+  .header-button {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-right:10px;
+    cursor: pointer;
+  }
+  .header-button2{
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .header-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px; /* Move the image above Featured Articles */
+    display: block;
+  }
+  
